@@ -11,7 +11,8 @@ my-langchain-api/
 │   └── main.py
 └── requirements.txt         # Project dependencies
 ```
-<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/82d3ce58-22ef-42cd-8ffb-af53aaa3f7f8" />
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/cdbdb22f-6fa1-4e7b-8d21-68d8e5b0e83f" />
+
 
 
 ## 🛠️ Step-by-Step Implementation with Virtual Environment
