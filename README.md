@@ -72,7 +72,7 @@ pip install pipreqs
 pipreqs . --force
 ```
 
-The `pip freeze` method lists all installed packages with exact versions, while `pipreqs` scans your code to include only necessary dependencies 【turn0search11】.
+The `pip freeze` method lists all installed packages with exact versions, while `pipreqs` scans your code to include only necessary dependencies 
 
 </details>
 
@@ -87,11 +87,12 @@ pip install -r requirements.txt
 
 ```bash
 # Install gcloud CLI if not already installed https://docs.cloud.google.com/sdk/docs/install-sdk
-# Then authenticate with Application Default Credentials
-gcloud auth application-default login
 
+gcloud auth login
 # Set default project for ADC
 gcloud config set project PROJECT_ID
+# Then authenticate with Application Default Credentials
+gcloud auth application-default login
 ```
 
 ### **Step 6: Create Application Code**
