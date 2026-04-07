@@ -89,6 +89,9 @@ pip install -r requirements.txt
 # Install gcloud CLI if not already installed https://docs.cloud.google.com/sdk/docs/install-sdk
 # Then authenticate with Application Default Credentials
 gcloud auth application-default login
+
+# Set default project for ADC
+gcloud config set project PROJECT_ID
 ```
 
 ### **Step 6: Create Application Code**
